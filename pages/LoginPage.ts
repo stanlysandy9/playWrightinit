@@ -136,7 +136,7 @@ export class LoginPage {
       // Wait for dropdown to appear
       await this.page.waitForTimeout(500);
       
-      // Click logout option from dropdown
+      //TS Click logout option from dropdown
       const logoutOption = this.page.locator('a:has-text("Logout")').or(
         this.page.locator('button:has-text("Logout")').or(
           this.page.locator('[class*="dropdown"] a:has-text("Logout")')
