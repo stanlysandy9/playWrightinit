@@ -1,5 +1,5 @@
-import {expect, test} from "@playwright/test"
-import {LoginPage} from "../pages/LoginPage"
+import {expect, test} from "@playwright/test";
+import {LoginPage} from "../pages/LoginPage";
 import { HomePage } from "../pages/HomePage";
 
 //(TC_001)Application should allow user to login to Application with valid credentials
